@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: static/images/background1.jpg; /* Adjust the file path and name accordingly */
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed;
+    color: white
+}
+
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: white
+}
+
+.suspect-form {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(169, 169, 169, 0.5); /* Grey background color with transparency */
+    border-radius: 15px; /* Adds border curve */
+    transition: background-color 0.3s ease-in-out; /* Adds transition effect on background color */
+}
+
+    .suspect-form:hover {
+        background-color: rgba(169, 169, 169, 0.7); /* Adjust the background color on hover */
+    }
